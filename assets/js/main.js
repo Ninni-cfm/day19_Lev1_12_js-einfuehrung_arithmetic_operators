@@ -1,22 +1,21 @@
 // Übertrage folgende arithmetische Operatoren in deinen Code - Editor und schaue dir das Ergebnis an:
 
 // Multiplikation geht vor und so wird 5 * 10 zuerst durchgeführt.
-let score1 = 5 + 5 * 10;
-console.log('Ergebnis: ' + score1);
+var score = 5 + 5 * 10;
+console.log('Ergebnis: ' + score);
 
 // Du kannst Klammern() hinzufügen, um die Reihenfolge der Prioritäten zu ändern.
-let score2 = (5 + 5) * 10;
-console.log('Ergebnis: ' + score2);
+var score = (5 + 5) * 10;
+console.log('Ergebnis: ' + score);
 
 // Du kannst Werte auf Variablen addieren.
-let score3 = 0;
-score3 = score3 + 10;
-console.log('Ergebnis: ' + score3);
+var score = 0;
+score = score + 10;
+console.log('Ergebnis: ' + score);
 
 // Hiervon gibt es eine verkürzte Version.
-let score4 = 0;
-score4 += 10;
-console.log('Ergebnis: ' + score4);
+score += 10;
+console.log('Ergebnis: ' + score);
 
 
 // Nun probiere es hiermit:
